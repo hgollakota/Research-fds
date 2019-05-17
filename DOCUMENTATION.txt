@@ -66,16 +66,16 @@ ________________________________________________________________________________
   3.1 Dataset
     https://archive.ics.uci.edu/ml/datasets/ILPD+(Indian+Liver+Patient+Dataset)
     
-    This ILPD (Indian Liver Patient Dataset) has 583 cases, composed of 416 liver patient records and 167 non-liver patient precords.
+    This ILPD (Indian Liver Patient Dataset) has 583 cases, composed of 416 liver patient records and 167 non-liver patient records.
     From these patient records, there are 441 male patients and 142 female patients.
-    THis is an unbalanced dataset.
+    This is an unbalanced dataset.
     
     10 features,
       1) Age                (Continuous)
       2) Gender             (Categorical)
       3) Total Bilirubin    (Continuous)
       4) Direct Bilirubin   (Continuous)
-      5) Total Protiens     (Continuous)
+      5) Total Proteins     (Continuous)
       6) Albumin            (Continuous)
       7) A/G Ratio          (Continuous)
       8) SGPT               (Continuous)
@@ -83,39 +83,40 @@ ________________________________________________________________________________
       10)Alkphos            (Continuous)
       
       Label:
-        Is Patient(Disease = 1, No Disease = 2)          (Categorical)
+        Is Patient (Disease = 1, No Disease = 2)          (Categorical)
   
   3.2 Preprocessing
-    Found 4 missing values, since the amount fo NaN < 5% we deicded to remove the tuples.
+    Found 4 missing values, since the amount of NaN < 5% we decided to remove the tuples.
     Convert categorical variables into binary variables.
     
   3.3 Data Reduction
-    Feature selection, either Principal COmponent Analysis(PCA) or Correlation Feature Selection (CFS).
+    Feature selection, either Principal Component Analysis (PCA) or Correlation Feature Selection (CFS).
     
   3.4 Classification Techniques
     3.4.1 K-NN
       K-Nearest Neighbor is the first algorithm we would like to explore.  Based on prior literature and kaggle kernals, this yields the most accurate model for our objective.
       
     3.4.2 Decision Tree
-      With a decision tree, we are using a binary split because we have two levels of predictors
+      With a decision tree, we are using a binary split because we have two levels of predictors. A terminal node is considered pure based on the label containing one class label, Disease or no Disease.
       
 4 Evaluation
     4.4.1 Accuracy
     4.4.2 Sensitivity
     4.4.3 Specificity
     4.4.4 Training / Testing / Validation
+        K-fold validation, dataset contains 583 cases. 
 
 5 Results
   5.1 Visualization
     5.1.1 Preprocessed
     5.1.2 Reduction
     5.1.3 Classification Outputs
-    5.1.4 Testing CLassification Matrix
-    5.1.5 Disect Dependent by Indepentent 
+    5.1.4 Testing Classification Matrix
+    5.1.5 Interpret Dependent by Independent 
 
 6 Conclusion & Future Work
   6.1 Numerosity Reduction
     Nonparametric Stratified Sampling to balance the data points.
-  6.2 Compare to similiar dataset
+  6.2 Compare to similar  dataset
   
 7 References
