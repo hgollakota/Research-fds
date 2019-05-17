@@ -1,5 +1,29 @@
 Computer-Aided Diagnosis for Liver Patient Classification
 
+Schedule:
+
+May 20th:
+    1) Submit proposal
+    2) Start literatire review 
+    3) Finish preprocessing dataset
+    
+May 27th:
+    1)  and component selection
+    2) Generate, test, evaluate models
+    3) Powerpoint due
+    4) Practice our presentation
+    
+June 3rd(presentation):
+    1) Present powerpoint
+    2) Begin working on compling Final Report
+    
+    
+June 10th(final report due):
+    1) Review Final Report
+    2) Submit Final Report
+
+______________________________________________________________________________________________________________________________________
+
 Table of Contents
 
 1 Introduction
