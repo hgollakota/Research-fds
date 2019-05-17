@@ -65,7 +65,20 @@ ________________________________________________________________________________
   3.1 Dataset
     https://archive.ics.uci.edu/ml/datasets/ILPD+(Indian+Liver+Patient+Dataset)
     
-    This 
+    This ILPD (Indian Liver Patient Dataset) has 583 cases, composed of 416 liver patient records and 167 non-liver patient precords.
+    From these patient records, there are 441 male patients and 142 female patients.
+    
+    10 variables,
+      1) Age                (Continuous)
+      2) Gender             (Categorical)
+      3) Total Bilirubin    (Continuous)
+      4) Direct Bilirubin   (Continuous)
+      5) Total Proteins     (Continuous)
+      6) Albumin            (Continuous)
+      7) A/G Ratio          (Continuous)
+      8) SGPT               (Continuous)
+      9) SGOT               (Continuous)
+      10)Alkphos            (Continuous)
   
   3.2 Preprocessing
   3.3 Data Reduction
